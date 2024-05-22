@@ -1,0 +1,412 @@
+body{
+    background: #fff url("../img/photography.png") repeat;
+}
+
+a{
+    color: #24a7cf;
+}
+
+a:hover{
+    color: #24a7cf;
+}
+
+.navbar-brand img{
+    margin-top: -5px;
+}
+
+.navbar-brand * {
+    color: #fff;
+}
+
+.jumbotron{
+    height: 180px;
+    overflow: hidden;
+}
+
+.jumbotron #details {
+    position: absolute;
+    color: #fff;
+}
+
+.jumbotron img {
+    width: 100%;
+}
+
+.jumbotron #details span {
+    color: dodgerblue;
+    font-size: 30px;
+}
+
+.carousel-inner{
+     height: 100%;
+}
+
+section .widgets{
+    margin-bottom: 20px;
+}
+
+.popula{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    background: url(../icon/Signature.jpg)
+    
+}
+
+.popular{
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+}
+
+.popular .details{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.popular .details p{
+    font-family: arial;
+    font-size: 11px;
+}
+
+.popular img{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.popular ul li {
+    list-style: none;
+
+
+}
+
+
+
+.img-circular{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+
+.post{
+    background: #fff;
+    border: 1px solid #E3E3E3;
+    margin: 15px 0px;
+}
+
+.post .post-date{
+    padding: 20px;
+    text-align: center;
+
+}
+
+.post .post-date .day {
+    font-size: 30px;
+    color: #FBC201;
+}
+
+
+.post .post-date .year{
+    font-weight: 100;
+}
+
+.post .post-title{
+    padding: 5px 20px 25px 20px;
+    border-left: 1px solid #E3E3E3;
+}
+
+.post .post-title span{
+    color: #FBC201;
+    font-weight: 100;
+    margin-left: 10px;
+
+}
+
+.post .profile-picture{
+    padding: 20px;
+}
+
+.post .profile-picture img{
+    width: 80%;
+}
+
+.post > a> img{
+    width: 100%;
+}
+
+.post .desc{
+    font-family: arial;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+}
+
+.post > a.btn {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.post .bottom {
+    padding: 10px 20px;
+    border-top: 1px solid #E3E3E3;
+}
+
+.post .bottom{
+    color: #BBA99B;
+}
+
+.post .bottom .first{
+    margin-right: 20px;
+}
+
+.post .bottom .second{
+    margin-left: 20px;
+}
+
+
+
+
+nav#pagination{
+    text-align: center;
+}
+
+.pagination > li > a{
+    padding: 15px 25px;
+    font-size: 18px;
+}
+
+.contact-form{
+    background: #FFF;
+    padding:50px 25px;
+
+}
+
+.contact-form h2{
+    color: #286090;
+}
+
+.contact-form textarea{
+    resize: none;
+}
+
+.related-posts {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.related-posts img{
+    width: 100%;
+}
+
+.related-posts h3{
+    color: #286090;
+}
+
+.author{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.author img{
+    width: 80%;
+}
+
+.author h4{
+    color: #286090;
+    text-decoration: underline;
+}
+
+.author p{
+    font-weight: 100;
+}
+
+.comment{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.comment h3{
+    color: #286090;
+}
+
+.comment img{
+    width: 80%;
+}
+
+.comment h4{
+    color: #286090;
+}
+
+.comment p{
+    font-weight: 100;
+}
+
+.comment .single-comment{
+    margin-bottom: 10px;
+}
+
+.comment-box{
+    margin-bottom: 15px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.comment-box textarea{
+    resize: none;
+}
+
+#anchor{
+     position:fixed;
+     bottom:15px;
+     right:15px;
+}
+
+
+
+/* Media Queries */
+@media (max-width:992px){
+    .post .profile-picture{
+        text-align: center;
+        margin-top: -40px;
+    }
+
+    .post .profile-picture img{
+        width:  15%;
+    }
+
+    .post .post-title{
+        text-align: center;
+        border: none;
+    }
+
+
+}
+
+@media (max-width:786px){
+
+    .jumbotron #details{
+        margin-top: 50px;
+    }
+
+    .jumbotron #details span {
+        font-size: 30px;
+    }
+
+    .navbar-brand img{
+        margin-bottom: 30px;
+    }
+
+    .post .post-title{
+        margin-top:  -30px;
+        text-align: center;
+    }
+
+    .post .profile-picture{
+        text-align: center;
+    }
+
+    .post .profile-picture img{
+        width:  30%;
+    }
+
+    .pagination > li > a{
+        font-size: 13px;
+        padding: 6px 8px;
+    }
+
+    .post .bottom .first{
+        margin-right: 5px;
+    }
+
+    .post .bottom .second{
+        margin-left: 5px;
+    }
+
+    footer div.container div.row div.col-xs-12 p {
+        font-size: 10px;
+        text-align: center;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+    }
+
+    .popular ul li a{
+        font-size: 15px;
+
+    }
+
+    .navbar-inverse .navbar-nav > li > a{
+        text-align: center;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        text-align: center;
+    }
+
+    .author{
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .author img{
+        width: 30%;
+
+    }
+
+    .author h4{
+        color: #286090;
+        text-decoration: underline;
+    }
+
+    .author p{
+        font-weight: 100;
+    }
+    
+    .comment{
+        background: #fff;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .comment h3{
+        color: #286090;
+    }
+
+    .comment img{
+        width: 30%;
+    }
+
+    .comment h4{
+        color: #286090;
+    }
+
+    .comment p{
+        font-weight: 100;
+    }
+
+.comment .single-comment{
+        margin-bottom: 10px;
+    text-align: center;
+
+    }
+
+    ul#navigation li{
+       float: left;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+    
+}
+/*Media query ends*/
+
+
+
+
+

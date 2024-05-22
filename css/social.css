@@ -1,0 +1,100 @@
+
+
+ul#navigation{
+    list-style: none;
+    margin-right: 40px;
+}
+
+ul#navigation li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+ul#navigation li{
+   padding-bottom: 30px;
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+ul#navigation li a:hover{
+    color: black;
+}
+
+#box {
+    margin-top: 70px;
+    margin-left: 30px;
+    top: 20%;
+    left: 10%;
+    transform: translate(-10%,-20%);
+}
+#sBox {
+    width: 50px;
+    height: 250px;
+    background: transparent;
+    overflow: hidden;
+}
+#sBox .icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 3px solid rgb(255,255,255,.5);
+    border-radius: 40px;
+    transition: .4s;
+    overflow: hidden;
+    cursor: pointer;
+}
+#sBox .icon span {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 1.5em;
+    color: #fff;
+}
+#sBox .icon i {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 70px;
+    color: rgb(255,255,255,.7);
+    font-style: normal;
+    text-transform: uppercase;
+    font-family: helvetica;
+}
+.fa-fa facebook {margin-left: 18px;}
+#sBox .icon:nth-child(1){transform: translateY(0px);}
+#sBox .icon:nth-child(2){transform: translateY(58px);}
+#sBox .icon:nth-child(3){transform: translateY(116px);}
+#sBox .icon:nth-child(4){transform: translateY(174px);}
+
+#sBox .icon:hover {
+    width: 200px;
+}
+
+.circle-icon {
+    background: #61C168;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    vertical-align: middle;
+    padding: 0px;
+}
+
+@media (max-width:786px){
+    
+    ul#navigation li{
+   padding: 0px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+        margin-left: -14px;
+        margin-top: -60px;
+        float: left;
+        
+}
+    
+    
+}
